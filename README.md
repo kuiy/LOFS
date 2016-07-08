@@ -4,7 +4,11 @@ As an emerging research direction, online streaming feature selection deals with
 feature space while the number of data instances is fixed. Online streaming feature selection provides a new, complementary algorithmic methodology to enrich online feature selection, especially targets to high dimensionality in big data analytics. 
 
 LOFS is a software toolbox for online streaming feature selection. It provides the first open-source library for use in MATLAB and OCTAVE that implements the state-of-the-art algorithms of online streaming feature selection. The library is designed to facilitate the development of new algorithms in this research direction and make comparisons between the new 
-methods and existing ones available. LOFS is available from https://github.com/kuiy/LOFS.
+methods and existing ones available. Two versions of the LOFS library in MATLAB and OCTAVE are available from https://github.com/kuiy/LOFS.
+
+The LOFS library comes with detailed documentation. The documentation is available from https://github.com/kuiy/LOFS/tree/master/LOFS_Matlab/manual and 
+https://github.com/kuiy/LOFS/tree/master/LOFS_Octave/manual.
+This documentation describes the setup and usage of LOFS. All functions and related data structures are explained in detail.
 
 
 Copyright © 2015 Kui Yu, Wei Ding, and Xindong Wu

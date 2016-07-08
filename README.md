@@ -19,7 +19,7 @@ License: GNU GENERAL PUBLIC LICENSE Version 3
 The LOFS architecture is based on a separation of three modules, that is, CM (Correlation Measure), Learning, 
 and SC (Statistical Comparison). 
 
-The three modules in the LOFS architecture are designed independently, and all codes follow the MATALB/OCTAVE standards. This makes that the LOFS library is simple, easy to implement, and extendable flexibly. One can easily add a new algorithm to the LOFS library and share it through the LOFS framework without modifying the other modules.
+All of the online streaming feature selection algorithms in the in the LOFS architecture are designed independently, and all codes follow the MATALB/OCTAVE standards. This makes that the LOFS library is simple, easy to implement, and extendable flexibly. For example, one can easily add a new algorithm to the LOFS library, then share it through the LOFS framework without modifying the other functions in the library.
  
 In the CM module, LOFS provides four measures to calculate correlations between features, Chi-square test, G2 test, Fisher's Z test, and mutual information, where Chi-square test, G2 test, and mutual information for dealing with discrete data while Fisher's Z test for handling continuous data.
 

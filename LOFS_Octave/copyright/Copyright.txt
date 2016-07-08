@@ -1,0 +1,68 @@
+----------------------------------------------------------------------------------------------------
+Copyright of LOFS (version 1.0)
+---------------------------------------------------------------------------------------------------- 	
+     LOFS is a software tool for online streaming feature selection. 
+     online streaming feature selection provides a new, complementary 
+     algorithmic methodology to enrich online feature selection, including
+     the algorithms mining features added individually over time, and the 
+     ones online learning grouped features added sequentially. The tool is 
+     written in MATLAB, and easy to install and implement.
+
+     Copyright © 2015 Kui Yu, Wei Ding, and Xindong Wu
+     License: GNU GENERAL PUBLIC LICENSE Version 3
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    
+----------------------------------------------------------------------------------------------------
+Copyrights of incorporated software
+----------------------------------------------------------------------------------------------------
+  
+LOFS incorporates with the functions of computing mutualinformation and entropy from the open source software: MIToolbox. 
+Its author,license and citation information are given below.
+
+MIToolbox (http://mloss.org/software/view/325/)
+Copyright © Gavin Brown, Adam Pocock, Ming-Jie Zhao, and Mikel Luján
+License: GNU GENERAL PUBLIC LICENSE Version 3
+Citation: Gavin Brown, Adam Pocock, Ming-Jie Zhao, and Mikel Luján.(2012) Conditional Likelihood Maximisation: A Unifying Framework for Information Theoretic Feature Selection. Journal of Machine Learning Research (JMLR),13,27-66.
+
+
+
+LOFS also incorporates with the functons of calculating chi-square and fisher's z tests from the open source software: bnt toolbox (Bayes Net Toolbox for Matlab).
+Its author,license and citation information are as the following.
+
+bnt (https://github.com/bayesnet/bnt)
+Copyright © Kevin Murphy
+License: the GNU Library General Public License version 2
+Citation: Kevin Murphy.(2001)The bayes net toolbox for matlab. Computing science and statistics, 33(2), 1024-1034.
+
+
+LOFS uses the source codes below. The website and citation informaiton are given as the following.
+
+
+1. Alpha_Investing.m
+
+https://alliance.seas.upenn.edu/~datamine/wiki/index.php?title=Streamwise_feature_selection
+
+Copyright © Jing Zhou, Dean P. Foster, Robert A. Stine, and Lyle H. Ungar
+
+citation: Jing Zhou, Dean P. Foster, Robert A. Stine, and Lyle H. Ungar. Streamwise feature selection. The Journal of Machine Learning Research. 2006, 7:1861-85.
+
+
+2. Cal_kappa.m
+
+http://biosig.sourceforge.net/index.html
+
+Copyright (c) 1997-2006,2008,2009,2011 by Alois Schloegl <alois.schloegl@gmail.com>	
+
+License: the GNU Library General Public License version 3

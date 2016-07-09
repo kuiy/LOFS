@@ -8,7 +8,9 @@ methods and existing ones available. Two versions of the LOFS library in MATLAB 
 
 The LOFS library comes with detailed documentation. The documentation is available from https://github.com/kuiy/LOFS/tree/master/LOFS_Matlab/manual and 
 https://github.com/kuiy/LOFS/tree/master/LOFS_Octave/manual.
-This documentation describes the setup and usage of LOFS. All functions and related data structures are explained in detail.
+This documentation describes the setup and usage of LOFS.
+
+All functions and related data structures are explained in detail.
 
 
 Copyright © 2015 Kui Yu, Wei Ding, and Xindong Wu

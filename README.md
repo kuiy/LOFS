@@ -8,9 +8,8 @@ methods and existing ones available. Two versions of the LOFS library in MATLAB 
 
 The LOFS library comes with detailed documentation. The documentation is available from https://github.com/kuiy/LOFS/tree/master/LOFS_Matlab/manual and 
 https://github.com/kuiy/LOFS/tree/master/LOFS_Octave/manual.
-This documentation describes the setup and usage of LOFS.
 
-All functions and related data structures are explained in detail.
+This documentation describes the setup and usage of LOFS. All functions and related data structures are explained in detail.
 
 
 Copyright © 2015 Kui Yu, Wei Ding, and Xindong Wu
@@ -18,10 +17,7 @@ Copyright © 2015 Kui Yu, Wei Ding, and Xindong Wu
 License: GNU GENERAL PUBLIC LICENSE Version 3
 
 
-The LOFS architecture is based on a separation of three modules, that is, CM (Correlation Measure), Learning, 
-and SC (Statistical Comparison). 
-
-All of the online streaming feature selection algorithms in the in the LOFS architecture are designed independently, and all codes follow the MATALB/OCTAVE standards. This makes that the LOFS library is simple, easy to implement, and extendable flexibly. For example, one can easily add a new algorithm to the LOFS library, then share it through the LOFS framework without modifying the other functions in the library.
+The LOFS architecture is based on a separation of three modules, that is, CM (Correlation Measure), Learning, and SC (Statistical Comparison). All of the online streaming feature selection algorithms in the in the LOFS architecture are designed independently, and all codes follow the MATALB/OCTAVE standards. This makes that the LOFS library is simple, easy to implement, and extendable flexibly. For example, one can easily add a new algorithm to the LOFS library, then share it through the LOFS framework without modifying the other functions in the library.
  
 In the CM module, LOFS provides four measures to calculate correlations between features, Chi-square test, G2 test, Fisher's Z test, and mutual information, where Chi-square test, G2 test, and mutual information for dealing with discrete data while Fisher's Z test for handling continuous data.
 
